@@ -46,6 +46,10 @@ function runFunction() {
         min = 0;
         hr += 1;
     }
+
+    if (hr === 100) {
+        hr = 0;
+    }
     let arr = [hr.toString(), min.toString(), sec.toString()]
     
     let resultArr = arr.map(element => {
