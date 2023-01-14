@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(198, 195, 195);
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Moon Dance', cursive;
+}
+
+.container{
+    border: solid black 1px;
+    padding: 0rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: black 5px 5px 15px;
+    border-radius: 10px;
+}
+
+.row1{
+    font-size: 52px;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.btn{
+    font-size: 16px;
+    width: 4rem;
+    height: 30px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+}
+
+.btn:hover{
+    box-shadow: black 2px 2px 5px;
+}
+
+.row2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numberArea{
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.numberArea1{
+    width: 4rem;
+    display: flex;
+    justify-content: right;
+}
+
+.numberArea2{
+    width: 2.5rem;
+    display: flex;
+    justify-content: safe;
+}
+
+@media screen and (max-width:425px) {
+    .row1{
+        font-size: 30px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .numberArea{
+        width: 3rem;
+    }
+    
+    .numberArea1{
+        width: 2.5rem;
+    }
+    
+    .numberArea2{
+        width: 1.5rem;
+    }
+
+    .btn{
+        font-size: 10px;
+        width: 3rem;
+        height: 25px;
+        border-radius: 5px;
+    }
+}
