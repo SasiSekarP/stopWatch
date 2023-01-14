@@ -6,21 +6,30 @@ let secEl = document.getElementById('sec');
 let micSecEl = document.getElementById('micSec');
 
 // global veriable
-
 let micSec = 0;
 let sec = 0;
 let min = 0;
 let hr = 0;
 let timeID
 
-// initial date push to HTML
+// runArea
 
-hrEl.innerText = '00';
-minEl.innerText = '00';
-secEl.innerText = '00';
-micSecEl.innerText = '0';
+reset();
 
 // function area
+
+function reset() {
+
+    micSec = 0;
+    sec = 0;
+    min = 0;
+    hr = 0;
+
+    hrEl.innerText = '00';
+    minEl.innerText = '00';
+    secEl.innerText = '00';
+    micSecEl.innerText = '0';
+}
 
 function runFunction() {
 
