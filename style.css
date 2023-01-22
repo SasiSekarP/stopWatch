@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(198, 195, 195);
+    background-color: aqua;
     flex-direction: column;
 }
 
